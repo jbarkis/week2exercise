@@ -13,6 +13,9 @@
 		4D02242319EDFAD7001E61BD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D02242219EDFAD7001E61BD /* Images.xcassets */; };
 		4D02242619EDFAD7001E61BD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D02242419EDFAD7001E61BD /* LaunchScreen.xib */; };
 		4D02243219EDFAD7001E61BD /* week2exerciseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D02243119EDFAD7001E61BD /* week2exerciseTests.swift */; };
+		4D02243C19EE0125001E61BD /* thrillistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D02243B19EE0125001E61BD /* thrillistViewController.swift */; };
+		4D02243E19EE05DD001E61BD /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D02243D19EE05DD001E61BD /* FeedViewController.swift */; };
+		4D02244019EE1029001E61BD /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D02243F19EE1028001E61BD /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		4D02242B19EDFAD7001E61BD /* week2exerciseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = week2exerciseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D02243019EDFAD7001E61BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D02243119EDFAD7001E61BD /* week2exerciseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = week2exerciseTests.swift; sourceTree = "<group>"; };
+		4D02243B19EE0125001E61BD /* thrillistViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = thrillistViewController.swift; path = ../thrillistViewController.swift; sourceTree = "<group>"; };
+		4D02243D19EE05DD001E61BD /* FeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		4D02243F19EE1028001E61BD /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,7 @@
 		4D02240D19EDFAD7001E61BD = {
 			isa = PBXGroup;
 			children = (
+				4D02243D19EE05DD001E61BD /* FeedViewController.swift */,
 				4D02241819EDFAD7001E61BD /* week2exercise */,
 				4D02242E19EDFAD7001E61BD /* week2exerciseTests */,
 				4D02241719EDFAD7001E61BD /* Products */,
@@ -77,9 +84,11 @@
 		4D02241819EDFAD7001E61BD /* week2exercise */ = {
 			isa = PBXGroup;
 			children = (
+				4D02243B19EE0125001E61BD /* thrillistViewController.swift */,
 				4D02241B19EDFAD7001E61BD /* AppDelegate.swift */,
 				4D02241D19EDFAD7001E61BD /* ViewController.swift */,
 				4D02241F19EDFAD7001E61BD /* Main.storyboard */,
+				4D02243F19EE1028001E61BD /* LoginViewController.swift */,
 				4D02242219EDFAD7001E61BD /* Images.xcassets */,
 				4D02242419EDFAD7001E61BD /* LaunchScreen.xib */,
 				4D02241919EDFAD7001E61BD /* Supporting Files */,
@@ -161,6 +170,7 @@
 				TargetAttributes = {
 					4D02241519EDFAD7001E61BD = {
 						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = UWX4368CMH;
 					};
 					4D02242A19EDFAD7001E61BD = {
 						CreatedOnToolsVersion = 6.0.1;
@@ -213,6 +223,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D02241E19EDFAD7001E61BD /* ViewController.swift in Sources */,
+				4D02243C19EE0125001E61BD /* thrillistViewController.swift in Sources */,
+				4D02243E19EE05DD001E61BD /* FeedViewController.swift in Sources */,
+				4D02244019EE1029001E61BD /* LoginViewController.swift in Sources */,
 				4D02241C19EDFAD7001E61BD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
